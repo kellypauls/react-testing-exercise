@@ -1,0 +1,27 @@
+.Carousel-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Carousel-main > i {
+  cursor: pointer;
+  margin: 10px;
+  color: #aaa;
+}
+
+.Carousel-main > i:hover {
+  color: black;
+}
+
+.bi.bi-arrow-left-circle.hidden {
+  color: white
+}
+
+.bi.bi-arrow-right-circle.hidden {
+  color: white
+}
+
+.bi {
+  font-size: 35px
+}
